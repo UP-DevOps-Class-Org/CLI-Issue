@@ -11,3 +11,7 @@ docker-compose down --remove-orphans
 ```
 docker system prune -a
 ```
+## Validate/Test the haproxy configuration,
+```
+docker run -it --rm --name haproxy-syntax-check haproxy-docker haproxy -c -f /usr/local/etc/haproxy/haproxy.cfg
+```
