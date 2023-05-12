@@ -15,3 +15,7 @@ docker system prune -a
 ```
 docker run -it --rm --name haproxy-syntax-check haproxy-docker haproxy -c -f /usr/local/etc/haproxy/haproxy.cfg
 ```
+## Open JMeter via terminal
+```
+open /usr/local/bin/jmeter
+```
